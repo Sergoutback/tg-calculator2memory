@@ -9,7 +9,7 @@
   </head>
   <body>
     <div id="unity-container" class="unity-desktop">
-      <canvas id="unity-canvas" width=960 height=600 tabindex="-1"></canvas>
+      <canvas id="unity-canvas" width=2160 height=3840 tabindex="-1"></canvas>
       <div id="unity-loading-bar">
         <div id="unity-logo"></div>
         <div id="unity-progress-bar-empty">
@@ -57,11 +57,11 @@
       }
 
       var buildUrl = "Build";
-      var loaderUrl = buildUrl + "/Calculator2MemoryForTg.loader.js";
+      var loaderUrl = buildUrl + "/Tg-calc07022025.loader.js";
       var config = {
-        dataUrl: buildUrl + "/Calculator2MemoryForTg.data",
-        frameworkUrl: buildUrl + "/Calculator2MemoryForTg.framework.js",
-        codeUrl: buildUrl + "/Calculator2MemoryForTg.wasm",
+        dataUrl: buildUrl + "/Tg-calc07022025.data",
+        frameworkUrl: buildUrl + "/Tg-calc07022025.framework.js",
+        codeUrl: buildUrl + "/Tg-calc07022025.wasm",
         streamingAssetsUrl: "StreamingAssets",
         companyName: "funnywebart",
         productName: "Calculator2Memory",
@@ -94,8 +94,8 @@
       } else {
         // Desktop style: Render the game canvas in a window that can be maximized to fullscreen:
 
-        canvas.style.width = "960px";
-        canvas.style.height = "600px";
+        canvas.style.width = "2160px";
+        canvas.style.height = "3840px";
       }
 
       loadingBar.style.display = "block";
